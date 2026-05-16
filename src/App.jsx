@@ -6,18 +6,23 @@ import Combine from "./pages/Combine";
 import Home from "./pages/Home";
 import config from "./data/config.json";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <AppShell />,
+      children: [
+        { index: true, element: <Home /> },
+        { path: "combine", element: <Combine /> },
+        { path: "collection", element: <Collection /> },
+        { path: "admin", element: config.adminReviewEnabled ? <AdminReview /> : <Navigate to="/" replace /> }
+      ]
+    }
+  ],
   {
-    path: "/",
-    element: <AppShell />,
-    children: [
-      { index: true, element: <Home /> },
-      { path: "combine", element: <Combine /> },
-      { path: "collection", element: <Collection /> },
-      { path: "admin", element: config.adminReviewEnabled ? <AdminReview /> : <Navigate to="/" replace /> }
-    ]
+    basename: "/Jvcki-wai-skin"
   }
-]);
+);
 
 function App() {
   return <RouterProvider router={router} />;
