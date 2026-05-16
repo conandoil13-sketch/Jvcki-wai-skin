@@ -4,7 +4,7 @@
     "essence": 1280,
     "coin": 420
   },
-  "adminReviewEnabled": true,
+  "adminReviewEnabled": false,
   "rarities": ["all", "common", "rare", "epic", "legendary", "mythic"],
   "duplicateShardsAllowed": true,
   "onlyReviewedSkinsInGame": false,
