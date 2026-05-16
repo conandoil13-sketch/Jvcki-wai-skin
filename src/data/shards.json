@@ -1,0 +1,74 @@
+[
+  {
+    "id": "shard_001",
+    "name": "신스킨 파편",
+    "image": "/images/shards/shard_001.png",
+    "tags": ["new-skin", "update"]
+  },
+  {
+    "id": "shard_002",
+    "name": "동일인물 파편",
+    "image": "/images/shards/shard_002.png",
+    "tags": ["same-person", "debate"]
+  },
+  {
+    "id": "shard_003",
+    "name": "오토튠 파편",
+    "image": "/images/shards/shard_003.png",
+    "tags": ["autotune", "hyperpop"]
+  },
+  {
+    "id": "shard_004",
+    "name": "인디고 파편",
+    "image": "/images/shards/shard_004.png",
+    "tags": ["indigo", "navy", "gold"]
+  },
+  {
+    "id": "shard_005",
+    "name": "하이퍼팝 파편",
+    "image": "/images/shards/shard_005.png",
+    "tags": ["hyperpop", "neon", "glitch"]
+  },
+  {
+    "id": "shard_006",
+    "name": "댓글창 파편",
+    "image": "/images/shards/shard_006.png",
+    "tags": ["comments", "reaction"]
+  },
+  {
+    "id": "shard_007",
+    "name": "금발 파편",
+    "image": "/images/shards/shard_007.png",
+    "tags": ["blonde", "gold"]
+  },
+  {
+    "id": "shard_008",
+    "name": "흑발 파편",
+    "image": "/images/shards/shard_008.png",
+    "tags": ["black-hair", "dark"]
+  },
+  {
+    "id": "shard_009",
+    "name": "네온 파편",
+    "image": "/images/shards/shard_009.png",
+    "tags": ["neon", "teal"]
+  },
+  {
+    "id": "shard_010",
+    "name": "컴백 파편",
+    "image": "/images/shards/shard_010.png",
+    "tags": ["comeback", "wish"]
+  },
+  {
+    "id": "shard_011",
+    "name": "물음표 파편",
+    "image": "/images/shards/shard_011.png",
+    "tags": ["question", "mystery"]
+  },
+  {
+    "id": "shard_012",
+    "name": "밈 파편",
+    "image": "/images/shards/shard_012.png",
+    "tags": ["meme", "letter"]
+  }
+]

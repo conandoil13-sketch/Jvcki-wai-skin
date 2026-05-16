@@ -1,0 +1,19 @@
+{
+  "appName": "JACKI SKIN COMBINE",
+  "currencies": {
+    "essence": 1280,
+    "coin": 420
+  },
+  "adminReviewEnabled": true,
+  "rarities": ["all", "common", "rare", "epic", "legendary", "mythic"],
+  "duplicateShardsAllowed": true,
+  "onlyReviewedSkinsInGame": false,
+  "showUnownedInCollection": true,
+  "rarityOdds": {
+    "common": 45,
+    "rare": 30,
+    "epic": 17,
+    "legendary": 7,
+    "mythic": 1
+  }
+}
